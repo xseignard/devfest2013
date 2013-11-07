@@ -1,0 +1,236 @@
+<!--
+Google IO 2012 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahe <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chrome serial API (avec du fun dedans)</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+  <script src="http://localhost:35729/livereload.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<!-- <slide class="logoslide nobackground">
+  <article class="flexbox vcenter">
+    <span><img src="images/google_developers_logo.png"></span>
+  </article>
+</slide>
+ -->
+<slide class="title-slide segue nobackground">
+  <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+  <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+  <hgroup class="auto-fadein">
+    <h1 data-config-title><!-- populated from slide_config.json --></h1>
+    <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+    <p data-config-presenter><!-- populated from slide_config.json --></p>
+  </hgroup>
+</slide>
+
+
+<slide  >
+  
+    <hgroup>
+      <h2>Au programme</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Chrome Packaged Apps? Pourquoi?</li>
+<li>Serial API</li>
+<li>Live Coding</li>
+<li>Démos</li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+    <hgroup class="auto-fadein">
+      <h2>Chrome Packaged Apps?</h2>
+      <h3>Pourquoi?</h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Chrome Apps? Pourquoi?</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Pour:</p>
+<ul>
+<li>Installer des applis Chrome sur votre OS comme si elles étaient natives.</li>
+<li>Une seule platefrome d'exécution : Chrome</li>
+<li>Utiliser les fonctions matérielles de l'ordinateur (usb, webcam, port série, ...)</li>
+<li>S'exécutent hors du navigateur Chrome, en standalone</li>
+<li>Distribution de l'appli via le Chrome WebStore</li>
+</ul>
+<p>Contre:</p>
+<ul>
+<li>Nécessite d'avoir Chrome d'installé (et oui! :))</li>
+</ul>
+<p>En savoir plus allez assister à la prez <a href="http://devfest.gdgnantes.com/index.html#/sessions?sessionId=9">Les Chrome Apps (le retour)</a> de François Beaufort</p></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+    <hgroup class="auto-fadein">
+      <h2>Serial API</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Serial API</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Se connecter, lire et écrire sur un port série</li>
+<li>Stable depuis Chrome 23 (Chrome est en version 30 depuis le 15 octobre)</li>
+<li><a href="http://developer.chrome.com/apps/serial.html">http://developer.chrome.com/apps/serial.html</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+    <hgroup class="auto-fadein">
+      <h2>Live coding</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Live coding</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><p>Les sources sont disponibles ici : <a href="https://github.com/xseignard/simpleSerial">https://github.com/xseignard/simpleSerial</a></p></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+    <hgroup class="auto-fadein">
+      <h2>Démos</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Démos</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>ChromeBot : <a href="https://github.com/xseignard/chromeBot">https://github.com/xseignard/chromeBot</a></li>
+<li>SerialSynth : <a href="https://github.com/xseignard/serialSynth">https://github.com/xseignard/serialSynth</a></li>
+</ul></article>
+ 
+</slide>
+
+<slide class="segue dark nobackground" >
+  
+    <aside class="gdbar"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+    <hgroup class="auto-fadein">
+      <h2>Promo!</h2>
+      <h3></h3>
+    </hgroup>
+  
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Sessions du code créatif</h2>
+      <h3></h3>
+    </hgroup>
+    <article ><ul>
+<li>Tous les mercredis au Stereolux de 18h30 à 21h</li>
+<li>vvvv, JS, HTML5, Pure Data, Processing, etc.</li>
+<li>Arduino, Raspberry Pi, circuit bending, construction</li>
+<li><a href="http://www.stereolux.org/atelier-public/sessions-du-code-creatif-le-rv-hebdo-experimentation-et-creation-numerique-11-09-2013">http://www.stereolux.org/atelier-public/sessions-du-code-creatif</a></li>
+</ul>
+<p>Merci au Laboratoire Art &amp; Technologies du Stereolux pour le prêt de matériel!</p></article>
+ 
+</slide>
+
+<slide  >
+  
+    <hgroup>
+      <h2>Merci aux gentils sponsors :)</h2>
+      <h3></h3>
+    </hgroup>
+    <article class="flexbox vcenter"><p><img alt="sponsors" src="./images/sponsors.png" /></p></article>
+ 
+</slide>
+
+
+<slide class="thank-you-slide segue nobackground">
+  <aside class="gdbar right"><img class="logo" src="images/logo.png"><br/><h2>Devfest</h2></aside>
+  <article class="flexbox vleft auto-fadein">
+    <h2>&lt;Thank You!/&gt;</h2>
+    <p>Any questions?</p>
+  </article>
+  <p class="auto-fadein" data-config-contact>
+    <!-- populated from slide_config.json -->
+  </p>
+</slide>
+
+<!-- <slide class="logoslide dark nobackground">
+  <article class="flexbox vcenter">
+    <span><img src="images/google_developers_logo_white.png"></span>
+  </article>
+</slide> -->
+
+<slide class="backdrop"></slide>
+
+</slides>
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
